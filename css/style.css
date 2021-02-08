@@ -55,3 +55,8 @@ h3
     transform: rotate(5deg);
     width: 200%;
 }
+img
+{
+    margin-top: 280%;
+    width: 100%;
+}
