@@ -55,8 +55,42 @@ h3
     transform: rotate(5deg);
     width: 200%;
 }
+
 img
 {
     margin-top: 280%;
     width: 100%;
 }
+
+@media screen and (max-width: 767px) 
+{
+    img.nyil 
+    {
+        display: none;
+    }
+    .harmadik
+    {
+        transform: none;
+        margin: auto;
+        width: auto;
+    }
+    h3
+    {
+        font-size: 2em;
+    }
+    .elso, .masodik, .harmadik
+    {
+        font-size: 1.2em;
+    }
+}
+@media screen and (max-width: 576px)
+{
+    h3
+    {
+        font-size: 1.5em;
+    }
+    .elso, .masodik, .harmadik
+    {
+        font-size: 0.8em;
+    }   
+} 
