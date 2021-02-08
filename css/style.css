@@ -4,11 +4,13 @@ body
     margin: auto;
     width: 70%;
 }
+
 h3
 {
     margin:5% 0% 5% 0%;
     font-size: 2vw;
 }
+
 #sikertelen
 {
     list-style-image: url("../img/icon_bad.png");
@@ -19,4 +21,37 @@ h3
 {
     list-style-image: url("../img/icon_good.png");
 
+}
+
+.elso
+{
+    border: 2px solid red;
+    border-radius: 5%;
+    box-shadow: 5px 5px 8px #ff5a5a, 10px 10px 8px rgb(221, 129, 129);
+    padding: 5% 2% 2% 7%;
+    font-size: 1.2vw;
+}
+
+.masodik
+{
+    border: 2px solid green;
+    border-radius: 5%;
+    box-shadow: 5px 5px 8px rgb(37, 158, 37), 10px 10px 8px rgb(134, 255, 134);
+    padding: 5% 2% 2% 7%;
+    font-size:1.2vw;
+}
+
+.harmadik
+{
+    margin-top: 3%;
+    margin-left: -65%;
+    text-align: center;
+    padding: 4px;
+    background-color: blue;
+    color: yellow;
+    font-weight: bold;
+    font-size: 1vw;
+    box-shadow: 10px 10px 5px #cfb7a2;
+    transform: rotate(5deg);
+    width: 200%;
 }
